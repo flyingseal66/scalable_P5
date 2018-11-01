@@ -1,6 +1,17 @@
 # scalable_P5
 A project for team Practical assignment 5 of Scalable Computing(cs7ns1)
 
+
+## Process
+1. Crack given hashes
+2. When you think you have k, call pwds_shares_to_secret(kpwds,kinds,diffs):
+- Where
+    - kpwds: k cracked passwords
+    - kinds: index's of the cracked password in the list of passwords
+    - diffs: all public shares
+3. Call decrypt, from: https://www.quickprogrammingtips.com/python/aes-256-encryption-and-decryption-in-python.html.
+This needs to be augmented just as Stephen augmented encrypt from that link.
+
 ## Setup GCloud
   
 1. https://cloud.google.com/
