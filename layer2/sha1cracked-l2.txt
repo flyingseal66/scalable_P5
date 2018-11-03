@@ -4,3 +4,8 @@ $sha1$480000$h9B0EMfR$JpTuPN9I58NahEJMg0cf32Mid1dC:hymnOlav
 $sha1$480000$hPy2LdW/$SZa69Xa7U3PgbD.evtCo81VTW6IT:OrlyOmar
 $sha1$480000$P2N3pm0s$opuJ89bOYNqrGJwFyzajIxYlLNgi:MarxHell
 $sha1$480000$oge3.QyE$16rczuMJPwi9mD/JmPiUYgQcXOTo:patsMuse
+$sha1$480000$lKO4mV/m$KYGSt7nUykI4sKvpQef/qH5Dt/Ry:meldOise
+$sha1$480000$xZF6HvL2$ub1hXfCfTe1rgqM2UHMMKBoyo0m1:YuriChad
+$sha1$480000$8ua6VyeC$gg.7JibhSaNutgHqZLzB9Y8NY.8w:inchSaki
+$sha1$480000$2/f710Id$YBg7HmAXPFOXW9qS6531jmXDakC/:dourAndy
+$sha1$480000$O58AqNcc$DppCdnsYHm2KsOWR4oIgiGeXv2kt:footRitz
