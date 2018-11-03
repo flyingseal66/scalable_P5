@@ -12,12 +12,12 @@ A project for team Practical assignment 5 of Scalable Computing(cs7ns1)
 3. Call decrypt, from: https://www.quickprogrammingtips.com/python/aes-256-encryption-and-decryption-in-python.html.
 This needs to be augmented just as Stephen augmented encrypt from that link.
 
-## K Checking Script : WIP**
+## K Checking Script  
 Added a script to allow us to check if we have reached k yet, called kChecker.py  
-usage: kChecker.py -p <cracked hashes and passwords file> -i <infernoBall json file>  
-Currently passwords file must be in format <hash>:<password> per line.(normal hashcat output, this wull have to be altered for submission)  
-Has error on checking k at the moment believed to be an issue in xor'ing the shares, currently working on fix.  
-
+usage: `kChecker.py -p <cracked hashes and passwords file> -i <infernoBall json file>`  
+Prints secrets for every possible k, and if K is reached,  will decrypt the next layer and output it in 'nextInferno.json'  
+  
+Currently passwords file must be in submission format <hash> <password> per line.  
 
 ## Setup GCloud
   
