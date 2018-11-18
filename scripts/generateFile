@@ -1,0 +1,71 @@
+#coding:utf-8
+with open('rockyou_4.txt','r') as reader, open('rockyou4-s.txt','w') as writer1, open('rockyou-u.txt','w') as writer2:
+    lines = reader.readlines()
+    num = 0
+    for line in lines:
+        # line =line[0:num] + line[num:num+1].upper() + line[num+1:]
+        if(line[0].isupper()):
+            writer2.writelines(line)
+        else:
+            writer1.writelines(line)
+with open('rockyou_4.txt','r') as reader, open('rockyou4-s.txt','w') as writer1, open('rockyou-u.txt','w') as writer2:
+    lines = reader.readlines()
+    num = 0
+    for line in lines:
+        # line =line[0:num] + line[num:num+1].upper() + line[num+1:]
+        if(line[0].isupper()):
+            writer2.writelines(line)
+        else:
+            writer1.writelines(line)
+with open('rockyou.txt','r') as reader, open('rockyou5.txt','w') as writer1:
+    lines = reader.readlines()
+    num = 0
+    for line in lines:
+        if ( not(line.strip('\n').isalnum() and not(line.strip('\n').isdigit()) and not (line.strip().isalpha()))
+                or "<" in line or "-" in line or (len(line) > 6) or (6 > len(line)) or (" " in line) or ("!" in line) or (("@") in line) or ("$") in line
+                or "(" in line or ")" in line or "," in line or "*" in line or "#" in line or "%" in line or "+" in line or "&" in line or "'" in line or "?" in line or "." in line or ";" in line):
+            continue
+        else:
+            # substring1 = line[0]
+            # substring2 = line[1:5]
+            # newLine = substring1 + substring2
+            #print (line)
+            writer1.writelines(line)
+a = "abcdefghijklmnopqrstuvwxyz"
+b = "0123456789"
+print(a[0])
+with open('rockyou5-2.txt','w') as writer1:
+    for i1 in range(26):
+        a1 = a[i1]
+        for i2 in range(26):
+            a2 = a1 + a[i2]
+            for i3 in range(26):
+                a3 = a2 + a[i3]
+                for i4 in range(10):
+                    a4 = a3 + b[i4]
+                    for i5 in range(26):
+                        a5 = a4 + a[i5]
+                        writer1.writelines(a5 + "\n")
+pecialCharacter = "«space»!\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
+with open ('realuniq.lst', 'r') as reader1, open('crack-pure.txt', 'w') as writer1:
+    lines = reader1.readlines()
+    k = 0
+    for line in lines:
+        print (line)
+        # for i in range(len(line)):
+        if len(line) >9 or len(line) <6:
+            continue
+        else:
+            k = k+1
+            if k%100 == 0:
+                print(k)
+            writer1.writelines(line)
+
+with open('1995.txt', 'r') as reader1, open('1996.txt', 'w') as writer1:
+    lines = reader1.readlines()
+    for line in lines:
+        if len(line) > 5:
+            writer1.writelines(line.replace(",", "").replace(".", "")
+                               .replace("!", "").replace("\"", "").replace("?", ""))
+writer1.close()
+
